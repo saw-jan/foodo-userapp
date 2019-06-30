@@ -60,7 +60,7 @@ public class Main extends AppCompatActivity implements NavigationView.OnNavigati
         StrictMode.setThreadPolicy(policy);
 
         alert = new AlertDialog.Builder(this);
-
+//foodo//
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         ActionBar actionbar = getSupportActionBar();
