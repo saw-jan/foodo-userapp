@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/options"
+        android:title="Options">
+        <menu>
+        <item android:id="@+id/ohistory"
+            android:title="Order History"
+            android:icon="@drawable/ic_history_gray">
+        </item>
+        <item android:id="@+id/mbasket"
+            android:title="My Basket"
+            android:icon="@drawable/ic_cart_gray">
+        </item>
+        </menu>
+    </item>
+    <item android:id="@+id/prefs"
+            android:title="Preferences">
+            <menu>
+
+            </menu>
+    </item>
+    <item android:id="@+id/exit"
+        android:title="Exit">
+    </item>
+</menu>
